@@ -65,8 +65,8 @@ body {
   text-transform: uppercase;
   display: inline-block;
   padding: 20px 10px;
-  width: 100%; /* or try a fixed value like 400px */
-  max-width: 600px; /* optional, to limit max width */
+  width: 100%; 
+  max-width: 600px; 
 }
 #cafes {
   margin-left: 140px;
@@ -144,10 +144,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  order: 0; /* image first */
+  order: 0; 
   margin-right: 20px;
   overflow: hidden;
-  background: transparent; /* or any background if you want */
+  background: transparent;
 }
 
 .tea-image img {

@@ -46,7 +46,7 @@ body {
 
 /* HEADINGS */
 .menu-title1 {
-  font-size: 1.5rem; /* o prueba con 1rem, según cuánto quieras reducir */
+  font-size: 1.5rem; 
   font-weight: bold;
   text-transform: uppercase;
   display: inline-block;
@@ -131,10 +131,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  order: 0; /* image first */
+  order: 0; 
   margin-right: 20px;
   overflow: hidden;
-  background: transparent; /* or any background if you want */
+  background: transparent; 
 }
 
 .tea-image img {
@@ -163,13 +163,13 @@ body {
 */
 .corner-image-top-right {
   position: absolute;
-  top: 180px;         /* separa del borde superior */
-  right: 140px;       /* separa del borde derecho */
-  width: 120px;      /* ajusta según el tamaño deseado */
+  top: 180px;       
+  right: 140px;       
+  width: 120px;      
   height: auto;
   z-index: 0;
-  opacity: 0.4;      /* opcional: estilo decorativo */
-  pointer-events: none; /* para que no bloquee clics */
+  opacity: 0.4;     
+  pointer-events: none; 
 
   transform: scale(2.5);
   transform-origin: top right;
@@ -178,13 +178,13 @@ body {
 
 .corner-image-bottom-right {
   position: absolute;
-  bottom: 180px;         /* separa del borde superior */
-  right: 140px;       /* separa del borde derecho */
-  width: 120px;      /* ajusta según el tamaño deseado */
+  bottom: 180px;       
+  right: 140px;      
+  width: 120px;     
   height: auto;
   z-index: 0;
-  opacity: 0.4;      /* opcional: estilo decorativo */
-  pointer-events: none; /* para que no bloquee clics */
+  opacity: 0.4;    
+  pointer-events: none;
 
   transform: scale(1.5);
   transform-origin: bottom right;

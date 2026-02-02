@@ -1,16 +1,16 @@
 body {
-  width: 1587px;   /* A3 width approx in px */
-  height: 1123px;  /* A3 height approx in px */
-  margin: 0rem 0rem; /* centers horizontally and adds vertical margin */
+  width: 1587px;   
+  height: 1123px;  
+  margin: 0rem 0rem; 
   padding: 0rem;
-  position: absolute; /* for stacking context */
+  position: absolute; 
   background: transparent;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* optional: subtle shadow for effect */
-  overflow: hidden; /* to clip overflow if needed */
-  background-color: #000; /* same black background as before */
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+  overflow: hidden; 
+  background-color: #000; 
   color: white;
   background-image: url('img/dark-grey-black-slate-background-or-texture-free-photo.jpg');
-  background-size: 1587px 1123px; /* cover the entire background */
+  background-size: 1587px 1123px; 
   font-family: 'PolarisFont'; 
   padding-top: 40px;
 
@@ -112,7 +112,7 @@ body {
 }
 
 .menu-column h2 {
-  background-color: #E2D1B3; /* Naranja llamativo */
+  background-color: #E2D1B3; 
   color: black ;
   padding: 0.5rem;
   text-transform: uppercase;
@@ -131,15 +131,15 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
-  border-bottom: none; /* elimina el borde */
+  border-bottom: none; 
   font-size: 1.2rem;
 
 }
 #menu-raciones li {
-  font-size: 0.97rem; /* o el tamaño que necesites, por ejemplo: 0.9rem, 14px, etc */
+  font-size: 0.97rem; 
 }
 #menu-sandwiches li {
-  font-size: 0.97rem; /* o el tamaño que necesites, por ejemplo: 0.9rem, 14px, etc */
+  font-size: 0.97rem; 
 }
 #menu-bebidas a{
   display: block;
@@ -182,8 +182,8 @@ body {
 /* photo grid */
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
-  grid-template-rows: repeat(2, 150px); /* 2 filas con altura fija */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 150px); 
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -194,7 +194,7 @@ body {
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(211, 84, 0, 0.7);
-  background-color: #222; /* fondo oscuro si la imagen tarda en cargar */
+  background-color: #222; 
 }
 
 @media print {
